@@ -1,0 +1,30 @@
+header {
+  background-color: beige;
+}
+
+header li {
+  display: inline-block;
+  padding: 20px;
+  transition: background-color 0.2s;
+}
+
+header a {
+  text-decoration: none;
+}
+header li:hover {
+  background-color: #808080;
+  font-size: 17px;
+}
+
+header ul {
+  margin: 0;
+}
+
+@keyframes changeitup {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
+}
