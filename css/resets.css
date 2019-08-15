@@ -1,6 +1,11 @@
 ul {
   padding: 0;
 }
-body {
+body,
+h1,
+h2,
+p,
+ul,
+pre {
   margin: 0;
 }

@@ -4,7 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/monokai.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script src="../index.js" type="module"></script>
+    <!-- he.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js"></script>
+    <!-- end -->
     <title>Snippets</title>
   </head>
-  <body></body>
+  <body>
+    <!-- defer means to not run the script until the whole page is loaded -->
+    <section defer id="snippets">
+      <!-- this is where the snippets will go -->
+      <div class="snip">
+        <div class="text">
+          <h2>comment.js</h2>
+          <p>A single line comment</p>
+        </div>
+        <!-- preserves whitespace -->
+        <pre><code>// javascript is fun</code></pre>
+      </div>
+      <div class="snip">
+        <div class="text">
+          <h2>comment2.js</h2>
+          <p>A single line comment</p>
+        </div>
+        <!-- preserves whitespace -->
+        <pre>
+            <code>
+/* javascript is fun */
+            </code>
+          </pre>
+      </div>
+    </section>
+  </body>
 </html>
